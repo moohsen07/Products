@@ -21,7 +21,7 @@
   <header>
     <div class="container-fluid">
       <div class="row pt-4">
-        <div class="col-4">
+        <div class="col-5">
           <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,31 +46,20 @@
           </nav>
         </div>
 
-        <div class="col-4 logo text-center">
+        <div class="col-2 logo text-center">
           <a class="navbar-brand" href="#"><img src="media/logo.png"></a>
         </div>
 
-        <div class="col-4 pt-3">
-          <div class="right-side d-flex justify-content-end">
+        <div class="col-5 pt-3">
+          <div class="right-side d-flex justify-content-center">
             <i class="fas fa-search"></i>
             <i class="far fa-heart"></i>
-            <a href="#">My account</a>
-            <a class="cart" href="#">Cart<span>0</span></a>
+            <a href="#">My Account</a>
+            <a class="cart-btn" href="#"><i class="fas fa-shopping-cart"></i><span>0</span></a>
           </div>
         </div>
 
-      </div>
 
-    </div>
-
-    <!-- Search Section -->
-    <div class="search">
-      <div class="container">
-        <i class="fa fa-times"></i>
-        <div class="search-content">
-          <h6>What Are You Looking For?</h6>
-          <input class="search-input" type="text" placeholder="Start Typing...">
-        </div>
       </div>
     </div>
     <div class="header-bg" style="width: 100%;">
@@ -81,9 +70,34 @@
         <span class="text-uppercase">explore</span>
       </div>
     </div>
-
   </header>
 
+  <!-- Search Section -->
+  <div class="search">
+    <div class="container">
+      <i class="fa fa-times"></i>
+      <div class="search-content">
+        <h6>What Are You Looking For?</h6>
+        <input class="search-input" type="text" placeholder="Start Typing...">
+      </div>
+    </div>
+  </div>
+  <!-- search Section -->
+
+  <!-- cart Section -->
+  <div class="cart shadow">
+    <div class="container">
+      <i class="fas fa-arrow-right right"></i>
+      <div class="order d-flex justify-content-between">
+        <h6 class=" font-weight-bold">ORDER</h6>
+        <span class="edit-cart text-muted font-weight-bold"">EDIT CART</span>
+      </div>
+      <hr>
+      <div class=" product-container">
+      </div>
+    </div>
+
+  </div>
   <!-- start simple product -->
 
   <div class="simple-product">
@@ -152,7 +166,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent1.jpg" data-src="media/recent11.jpg">
+              <img class="img-fluid" src="media/portableBluetooth.jpg" data-src="media/portableBluetooth2.jpg">
             </figure>
             <div class="product-inner">
               <div class="product-content">
@@ -180,7 +194,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent2.jpg" data-src="media/recent22.jpg">
+              <img class="img-fluid" src="media/elephantChair.jpg" data-src="media/elephantChair2.jpg">
             </figure>
             <span class="sale new">Sale</span>
             <div class="product-inner">
@@ -194,7 +208,7 @@
                 </span>
                 <h3 class=" position-relative d-inline-block">Elephant</h3><br>
                 <h3 class="d-inline-block position-relative">Chair</h3>
-                <span class="price float-right pt-3">196$-800$</span>
+                <span class="price float-right pt-3">800$</span>
               </div>
               <div class="inner-hover d-flex justify-content-center pt-2">
                 <span class="eye"><i class="far fa-eye"></i></span>
@@ -208,7 +222,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent3.jpg" data-src="media/recent33.jpg">
+              <img class="img-fluid" src="media/liberoHedphone.jpg" data-src="media/liberoHedphone2.jpg">
             </figure>
             <div class="product-inner">
               <div class="product-content">
@@ -235,7 +249,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent4.jpg" data-src="media/recent44.jpg">
+              <img class="img-fluid" src="media/decorativeAlarmClock.jpg" data-src="media/decorativeAlarmClock2.jpg">
             </figure>
             <span class="sale text-dark">New</span>
             <div class="product-inner">
@@ -265,7 +279,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent5.jpg" data-src="media/recent55.jpg">
+              <img class="img-fluid" src="media/moltedPlasticArmchair.jpg" data-src="media/moltedPlasticArmchair2.jpg">
             </figure>
             <div class="product-inner">
               <div class="product-content">
@@ -293,7 +307,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent6.jpg" data-src="media/recent66.jpg">
+              <img class="img-fluid" src="media/loungeChair.jpg" data-src="media/loungeChair2.jpg">
             </figure>
             <span class="sale">17%</span>
             <div class="product-inner">
@@ -321,7 +335,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent7.jpg" data-src="media/recent77.jpg">
+              <img class="img-fluid" src="media/maurisChair.jpg" data-src="media/maurisChair2.jpg">
             </figure>
             <div class="product-inner">
               <div class="product-content">
@@ -348,7 +362,7 @@
         <div class="col-lg-3 col-sm-6 mb-4">
           <div class="recent-product position-relative">
             <figure>
-              <img class="img-fluid" src="media/recent8.jpg" data-src="media/recent88.jpg">
+              <img class="img-fluid" src="media/fusceArmchair.jpg" data-src="media/fusceArmchair2.jpg">
             </figure>
             <span class="sale text-muted">Incoming</span>
             <div class="product-inner">
