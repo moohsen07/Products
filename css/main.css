@@ -203,6 +203,13 @@ input:focus {
   right: 0;
 }
 
+@media (max-width : 769px) {
+  .cart {
+    right: -100%;
+    width: 100%;
+  }
+}
+
 .cart::-webkit-scrollbar {
   display: none;
 }
@@ -384,6 +391,7 @@ input:focus {
   background-color: #000;
   color: #fff;
 }
+
 
 /* Start Tittle Section */
 
